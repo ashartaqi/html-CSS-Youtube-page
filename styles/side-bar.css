@@ -1,0 +1,49 @@
+.side-bar{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    z-index: 200;
+}
+.icon-complete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: roboto, Arial;
+}
+.icon-names:hover{
+    background-color: rgb(230, 230, 230);
+}
+.home{
+    height: 45px;
+    width: 45px;
+}
+.explore{
+    height: 45px;
+    width: 45px;
+}
+.subscriptions{
+    height: 45px;
+    width: 45px;
+}
+.originals{
+    height: 45px;
+    width: 45px;
+}
+.youtube-music{
+    height: 45px;
+    width: 45px;
+}
+.library{
+    height: 45px;
+    width: 45px;
+}
